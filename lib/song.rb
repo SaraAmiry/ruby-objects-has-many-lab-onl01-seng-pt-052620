@@ -9,9 +9,6 @@ class Song
   def self.all 
     @@all 
   end 
-  def name
-    print "nil"
-  end 
   
   def artist_name
       self.artist.name
