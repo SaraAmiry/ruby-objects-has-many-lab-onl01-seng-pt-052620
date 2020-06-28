@@ -21,6 +21,6 @@ class Artist
   end 
   
   def self.song_count 
-    @songs.count {|song| puts 
+    @songs.count {|song| puts "#{song}" }
   end 
 end 
