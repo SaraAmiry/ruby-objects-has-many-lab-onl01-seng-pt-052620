@@ -10,7 +10,7 @@ class Song
     @@all 
   end 
   def name
-    prints "nil"
+    print "nil"
   end 
   
   def artist_name
